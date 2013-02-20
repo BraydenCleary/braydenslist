@@ -1,0 +1,13 @@
+<form action='/posts' method="post">
+  <input type="text" name="title">
+  <textarea name="description">Enter Description</textarea>
+  <input type="email" name="email">
+  <input type="number" name="price">
+  <select name="category_id">
+    <% @categories.each do |category| %>
+      <option value= "<%= category.id %>"> <%= category.name %> </option>
+    <% end %>
+  </select>
+  <input type="hidden" name="unique_key" value="<%=SecureRandom.hex(n=8)%>"> 
+  <input type="submit" value="Submit Form">
+</form>

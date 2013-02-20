@@ -1,0 +1,43 @@
+body {
+  width: 960px;
+  text-align: center;
+  font-family: sans-serif;
+  ;
+}
+
+.bucket h2 {
+  /*font-weight: bold*/
+}
+
+.nav-bar {
+  padding: 10px;
+}
+
+.nav-bar a {
+  padding: 0px 10px;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 17px;
+  width: 200px;
+  margin: auto;
+}
+
+.braydens_list {
+  font
+}
+
+.bucket {
+  float: left;
+  width: 460px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bucket_area{
+
+}
+.bucket .list {
+
+}

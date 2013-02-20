@@ -1,0 +1,16 @@
+<div class="post-display">
+<h2> Your Post has been created! </h2>
+<h2> Post </h2>
+<ul>
+  <li> Title: <%= @post.title %> </li>
+  <li> Description: <%= @post.description %> </li>
+  <li> Price: <%= @post.price %> </li>
+  <li> Seller Contact Info: <%= @post.email %> </li>
+<ul>
+<p>
+Dear User,
+  You can access your post for editing with this unique URL: <%=@post.unique_key%>.
+  An email will be sent to you containing this very important information. 
+  PSYCH.
+</p>
+</div>
